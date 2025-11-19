@@ -39,6 +39,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build App
+        env:
+          BASE_PATH: /type-challenges
         run: |
           cd app
           pnpm build
