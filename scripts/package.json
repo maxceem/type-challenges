@@ -2,6 +2,11 @@
   "name": "@type-challenges/scripts",
   "version": "1.0.0",
   "private": true,
+  "exports": {
+    "./actions/utils/formatToCode": "./actions/utils/formatToCode.ts",
+    "./actions/utils/toCommentBlock": "./actions/utils/toCommentBlock.ts",
+    "./actions/utils/toDivider": "./actions/utils/toDivider.ts"
+  },
   "dependencies": {
     "@actions/core": "^1.10.1",
     "@actions/github": "^6.0.0",
