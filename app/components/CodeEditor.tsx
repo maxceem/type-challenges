@@ -228,7 +228,7 @@ export function CodeEditor({
           minimap: { enabled: false },
           fontSize: 14,
           lineNumbers: 'on',
-          scrollBeyondLastLine: 20,
+          scrollBeyondLastLine: true,
           automaticLayout: true,
           tabSize: 2,
           wordWrap: 'on',
