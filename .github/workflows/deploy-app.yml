@@ -40,7 +40,7 @@ jobs:
 
       - name: Build App
         env:
-          BASE_PATH: /type-challenges
+          BASE_PATH: "/${{ github.event.repository.name }}"
         run: |
           cd app
           pnpm build
